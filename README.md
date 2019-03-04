@@ -2,7 +2,7 @@
 Proof-of-concept tool that forwards the Discord Rich Presence named pipe on Windows.
 
 # How does it work?
-First of all, in order to make it simple to understand, I'm going to use the term `host` for the machine that has the desktop Discord client installed and running and the term `guest` for the machine that is going to be using this app to forward the RPC into Discord. 
+First of all, in order to make it simple to understand, I'm going to use the term `host` for the machine that has the desktop Discord client installed and running, and the term `guest` for the machine that is going to be using this app to forward the RPC into Discord. 
 
 Now that's out of the way, let's start:
 - First, we start the server on the host. This is make the app into a named pipe client that will be receiving data from the Discord app.
